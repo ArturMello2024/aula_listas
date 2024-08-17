@@ -1,0 +1,66 @@
+1- Identificação de requisitos: 
+
+REQUISITOS FUNCIONAIS:
+
+1.1  - GERENCIAMENTO DE PRONTUÁRIOS MÉDICOS
+
+	RF01 - O sistema deverá ser possível implementar informações do pacientes, bem como informações pessoais,
+	sintomas, passado médico, visando melhorar seu atendimento.
+	RF02 - O sistema deverá Identificar autor e data de cada registro no prontuário, 
+	monitorando aspectos de pontualidade e legibilidade.
+	RF03 - Proteger registros e informações contra perdas, adulteração ou acesso indevido.
+
+1.2 - AGENDAMENTO DE CONSULTAS
+
+	RF04 - O sistema deverá ser possível agendar consultas, verificando datas disponíveis
+	e evitando duplicidade nas marcações.
+	RF05 - O sistema deverá verificar realizar o envio de confirmação e lembretes de consultas.
+	RF06 - O sistema deverá ter integração com agendas de feriados regionais e nacionais.
+
+
+1.3 - CONTROLE DE ESTOQUE DE MEDICAMENTOS
+
+	RF07 - O sistema deverá ser capaz de incluir medicamentos.
+	RF08 - O sistema deverá ser capaz de gerar um relatório do uso de medicamentos, visando otimização
+	de compras.
+	RF09 - O sistema deverá ser capaz de gerenciar medicamentos controlados e suas receitas específicas.
+	RF10 - 
+
+
+1.4 - COMUNICAÇÃO ENTRE DIFERENTES SETORES DO HOSPITAL.
+
+
+
+REQUISITOS NÃO FUNCIONAIS:
+
+RNF01 - ESTE SISTEMA DEVE SER CAPAZ DE LIDAR COM VÁRIAS FUNCIONALIDADES.
+RNF02 - ESTE SISTEMA SERÁ MOBILE OU DESKTOP?
+RNF03 - QUAL BASE DE DADOS SERÁ UTILIZADA PARA ARMAZENAMENTO DE DADOS.
+RNF04 : O SISTEMA DEVE CRIPTOGRAFAR TODOS DADOS DOS PACIENTES.
+
+2. PRIORIZAÇÃO DE REQUISITOS:
+
+01 - AGENDAMENTO DE CONSULTAS.
+
+Sem um sistema de marcação de consultas, não haverão pacientes a serem gerenciados.
+
+02 - GERENCIAMENTO DE PRONTUÁRIOS MÉDICOS.
+
+Sem um sistema de gerenciamento, o tratamento da informação, será defasado, causando erro
+no atendimento do paciente.
+
+03 - COMUNICAÇÃO ENTRE DIFERENTES SETORES DO HOSPITAL.
+
+Divergência de informação entre setor de diagnóstico e medicamento, pode causar erros graves.
+
+04 - CONTROLE DE ESTOQUE DE MEDICAMENTOS.
+
+saber exatamente a necessidade de medicamentos usados rotineiramente, manterá seu estoque saudável.
+
+3. ANALISE DE IMPACTO:
+
+01 - FALHA NA COMUNICAÇÃO ENTRE OS SETORES.
+02 - DIVERGÊNCIA NAS DATAS DAS CONSULTAS.
+03 - VAZAMENTOS DE DADOS PESSOAIS DE PACIENTES.
+04 - IDENTIFICAR OS AUTORES DE CADA PRONTUÁRIOS E PROFISSIONAIS ENVOLVIDOS NO ATENDIMENTO.
+05 - 
